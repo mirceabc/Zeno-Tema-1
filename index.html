@@ -16,6 +16,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <style>
+      .full-height {
+        height: 100vh;
+      }
+      .english-progress-bar{
+        width: 65%;
+      }
+      .german-progress-bar{
+        height: 32%;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -23,8 +36,8 @@
       <h1 class="text-white">BLAGA MIRCEA-CONSTANTIN</h1>
     </div>
 
-    <div class="container-fluid m-0 p-0" style="height: 100vh">
-      <div class="row m-0 p-0" style="height: 100vh">
+    <div class="container-fluid m-0 p-0 full-height">
+      <div class="row m-0 p-0 full-height">
         <div class="col-4 bg-secondary d-flex flex-column text-white p-4">
           <table>
             <thead>
@@ -183,8 +196,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-              style="width: 65%"
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success english-progress-bar"
             >
               B2
             </div>
@@ -200,8 +212,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
-              style="width: 32%"
+              class="progress-bar progress-bar-striped progress-bar-animated german-progress-bar"
             >
               A2
             </div>
